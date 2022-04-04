@@ -4,11 +4,13 @@ public class Player {
     private String name;
     private int location;
     private int round;
+    private int money;
 
     public Player(String name){
         this.name = name;
         this.location = 0;
         this.round = 0;
+        this.money = 1000;
     }
 
     public String getName() {
